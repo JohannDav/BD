@@ -1,0 +1,62 @@
+create database 4IV9_quirino;
+use 4IV9_quirino;
+
+Create table Alumno (
+nombre char (50),
+boleta int,
+especialidad char(35),
+promedio dec(4,2),
+grupo char(5),
+primary key (Boleta)
+);
+
+insert into alumno values("CAYETANO VERDUZCO ALEJANDRO",2023090139,"Programacion",8,"4IV9");
+insert into alumno values("CHAIX PADILLA LEONARDO",2022090126,"Programacion",10,"4IV9");
+insert into alumno values("FLORES GALLARDO LUIS ENRIQUE",2023090244,"Programacion",9,"4IV9");
+insert into alumno values("GARCIA GARCIA OSCAR",2023090328,"Programacion",9,"4IV9");
+insert into alumno values("GARCIA MATA LEONARDO",2023090302,"Programacion",8,"4IV9");
+insert into alumno values("GONZALEZ NAVA RODRIGO YAEL",2023090325,"Programacion",8,"4IV9");
+insert into alumno values("HERNANDEZ BARRIOS SAMUEL RODRIGO",2023090359,"Programacion",7,"4IV9");
+insert into alumno values("HERNANDEZ CASTANEDA ANDRE ALAIN",2023090398,"Programacion",10,"4IV9");
+insert into alumno values("HERRERA MACEDO KAROL MARILU",2023090349,"Programacion",9,"4IV9");
+insert into alumno values("HUANG XIWEI",2023090093,"Programacion",10,"4IV9");
+insert into alumno values("LARA NOVARO MAURICIO MIGUEL",2023090421,"Programacion",7,"4IV9");
+insert into alumno values("LULE GONZALEZ NATALIA MICHELLE",2023090479,"Programacion",7,"4IV9");
+insert into alumno values("MACLOVIO MORALES ANGEL",2023090559,"Programacion",7,"4IV9");
+insert into alumno values("MADRAZO RIVERA JONATHAN",2023090573,"Programacion",6,"4IV9");
+insert into alumno values("MALDONADO ALCALA LEONARDO",2023090565,"Programacion",7,"4IV9");
+insert into alumno values("MARCOS MONTES ISAAC ALEJANDRO",2023090568,"Programacion",7,"4IV9");
+insert into alumno values("MARMOLEJO BARAJAS ARTURO",2023090548,"Programacion",7,"4IV9");
+insert into alumno values("MARQUEZ RODRIGUEZ ADAM JARED",2023090546,"Programacion",10,"4IV9");
+insert into alumno values("MENDOZA PALACIOS ISAAC JOSUE",2023090440,"Programacion",6,"4IV9");
+insert into alumno values("MENDOZA SANCHEZ CARLOS EDUARDO",2023090481,"Programacion",6,"4IV9");
+insert into alumno values("MORALES MUÑOZ MILY FERNANDA",2023090591,"Programacion",9,"4IV9");
+insert into alumno values("MUÑOZ VALENCIA FERNANDO",2023090427,"Programacion",8,"4IV9");
+insert into alumno values("NOYOLA GOMEZ EMILIO DAMIAN",2023090635,"Programacion",10,"4IV9");
+insert into alumno values("ORTIZ SANCHEZ VALENTINA",2023090628,"Programacion",8,"4IV9");
+insert into alumno values("PEREZ VILLANUEVA EDUARDO TADEO",2023090649,"Programacion",10,"4IV9");
+insert into alumno values("PEREZ ZETINA DIEGO ADAN",2023090692,"Programacion",6,"4IV9");
+insert into alumno values("RAMOS FLORES CHRISTOPHER ALEXANDER",2022090685,"Programacion",6,"4IV9");
+insert into alumno values("RAMOS ROSAS ANTONIO",2023090701,"Programacion",6,"4IV9");
+insert into alumno values("RANGEL PEREZ LUIS FERNANDO",2023090732,"Programacion",7,"4IV9");
+insert into alumno values("ROJO MARTINEZ FRANCISCO DAVID",2023090750,"Programacion",8,"4IV9");
+insert into alumno values("SANCHEZ NUÑEZ JUAN PABLO",2023090794,"Programacion",9,"4IV9");
+insert into alumno values("SANTIAGO BAUTISTA HANNIA",2023090822,"Programacion",7,"4IV9");
+insert into alumno values("VALADEZ HERNANDEZ ANGEL BENJAMIN",2023090849,"Programacion",6,"4IV9");
+insert into alumno values("VAZQUEZ SILVA FABIAN ALONSO",2023090858,"Programacion",6,"4IV9");
+insert into alumno values("VELAZQUEZ MOLINA VALERIA",2023090899,"Programacion",9,"4IV9");
+
+CREATE TABLE Especialidad(
+id_especialidad int,
+nombre char(20),
+plan_estudio int,
+area char(5),
+primary key (id_especialidad)
+);
+
+INSERT INTO especialidad VALUES(100,"Programación",1972,"FM");
+INSERT INTO especialidad VALUES(101,"Programación",2008,"FM");
+INSERT INTO especialidad VALUES(102,"Programación",2023,"FM");
+
+ALTER TABLE Alumno
+ADD foreign key (especialidad) references Especialidad (Especialidad);

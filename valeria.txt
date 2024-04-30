@@ -1,0 +1,7 @@
+#Tempo
+select into #Tempo------------------>direeciona a lo que quieras con el mismo tipo de datos
+  nombre,ap_pat,ap_mat,
+from alumno  ------------>enviara los datos a una tabla temporal que estara mientras ejecutas el programa,luego la eliminas.
+
+select*from #Tempo
+toma la info que tengas y la devuelvas cuando le pones END para terminar el precseso deseaparece0
