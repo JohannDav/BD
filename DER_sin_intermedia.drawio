@@ -1,0 +1,240 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Página-1" id="5QQpzNv9ftkfEADZM-nJ">
+    <mxGraphModel dx="827" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-65" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Empleado" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-93" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-94" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-95" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-96" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-97" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-17" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9EFkn_p0gBWU26mw9wp4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-18" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9EFkn_p0gBWU26mw9wp4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="Venta" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-52" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-53" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-54" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-55" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-57" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-67" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Producto" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-47" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-48" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-49" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-50" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-51" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Provedor" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="realiza&lt;div&gt;1:M&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="230" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="provoca&lt;div&gt;1:M&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="tiene&lt;div&gt;M:1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="560" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-19" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="600" as="sourcePoint" />
+            <mxPoint x="230" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-1" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1&lt;div&gt;1&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3048" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-20" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="560" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-2" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M&lt;div&gt;1&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-23" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-9" style="endArrow=none;html=1;rounded=0;" target="AbETEo-eWD5Lt7_V6asI-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="200" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-5" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1&lt;div&gt;M&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4074" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-24" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-17" style="endArrow=none;html=1;rounded=0;" target="AbETEo-eWD5Lt7_V6asI-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="810" y="220" as="sourcePoint" />
+            <mxPoint x="880" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-6" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1&lt;div&gt;1&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1167" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-25" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="endArrow=none;html=1;rounded=0;" target="AbETEo-eWD5Lt7_V6asI-15" value="1 M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="710" as="sourcePoint" />
+            <mxPoint x="590" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-26" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-15" style="endArrow=none;html=1;rounded=0;" target="AbETEo-eWD5Lt7_V6asI-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="710" as="sourcePoint" />
+            <mxPoint x="720" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-3" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 1" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="id_empleado (PK)" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-66" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbETEo-eWD5Lt7_V6asI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="id_cliente(PK)" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="id_cliente (FK)" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="id_empleado (FK)" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="fecha" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="nota" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="id_venta (PK)" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="id_proveedor (FK)" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="costo" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="descripción" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="precio" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="nombre" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="id_producto&amp;nbsp;(PK)" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-42" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="contacto" vertex="1">
+          <mxGeometry height="40" width="120" x="930" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-43" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="teléfono" vertex="1">
+          <mxGeometry height="40" width="120" x="930" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-44" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="dirección" vertex="1">
+          <mxGeometry height="40" width="120" x="930" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-45" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="nombre" vertex="1">
+          <mxGeometry height="40" width="120" x="930" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-46" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="id_proveedor (PK)" vertex="1">
+          <mxGeometry height="40" width="120" x="930" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-70" edge="1" parent="1" source="9EFkn_p0gBWU26mw9wp4-19" style="endArrow=none;html=1;rounded=0;" target="AbETEo-eWD5Lt7_V6asI-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="259.9999999999999" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-20" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M 1" vertex="1">
+          <mxGeometry relative="1" x="-0.043" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbETEo-eWD5Lt7_V6asI-71" edge="1" parent="1" source="AbETEo-eWD5Lt7_V6asI-7" style="endArrow=none;html=1;rounded=0;" target="9EFkn_p0gBWU26mw9wp4-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-21" connectable="0" parent="AbETEo-eWD5Lt7_V6asI-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 M" vertex="1">
+          <mxGeometry relative="1" x="0.2125" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="cantidad" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="subtotal" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9EFkn_p0gBWU26mw9wp4-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="tiene&lt;div&gt;M:N&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
