@@ -1,0 +1,46 @@
+Table Cliente {
+  id_cliente INT [pk, increment]
+}
+
+Table Empleado {
+  id_empleado INT [pk, increment]
+}
+
+Table Departamento {
+  id_departamento INT [pk, increment]
+  nombre VARCHAR (50)
+}
+
+Table Proveedor {
+  id_proveedor INT [pk, increment]
+  nombre VARCHAR (40)
+  direccion VARCHAR (100)
+  telefono VARCHAR (10)
+  RFC VARCHAR (13)
+  estatus TINYINT
+  correo VARCHAR (50)
+  contacto VARCHAR (50)
+}
+
+Table Producto {
+  id_producto INT [pk, increment]
+  nombre VARCHAR (100)
+  costo DECIMAL (10,2)
+  precio DECIMAL (10,2)
+  stock INT
+  estatus TINYINT
+  id_departamento INT [ref: > Departamento.id_departamento]
+  id_proveedor INT [ref: > Proveedor.id_proveedor]
+}
+
+Table Venta {
+  id_venta INT [pk, increment]
+  nota INT
+  fecha DATE
+  cantidad INT
+  subtotal DECIMAL
+  estatus TINYINT
+  id_producto INT [ref: > Producto.id_producto]
+  id_empleado INT [ref: > Empleado.id_empleado]
+  id_cliente INT [ref: > Cliente.id_cliente]
+}
