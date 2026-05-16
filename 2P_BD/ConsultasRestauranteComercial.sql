@@ -85,7 +85,9 @@ WHERE c.estatus = 1
 GROUP BY cl.nombre
 ORDER BY Total DESC;
 
--- 1. Total por NOTA de venta
+-- =====================================================
+-- 7. TOTAL POR NOTA DE VENTA
+-- =====================================================
 SELECT 
     c.nota,
     c.fecha,
@@ -95,7 +97,9 @@ INNER JOIN Producto p ON p.id_producto = c.producto_id
 GROUP BY c.nota, c.fecha
 ORDER BY c.nota;
 
--- 2. Total de la NOTA 7
+-- =====================================================
+-- 8. TOTAL DE LA NOTA 7
+-- =====================================================
 SELECT 
     c.nota,
     c.fecha,
@@ -105,7 +109,9 @@ INNER JOIN Producto p ON p.id_producto = c.producto_id
 WHERE c.nota = 7
 GROUP BY c.nota, c.fecha;
 
--- 3. Total de las NOTAS con ESTATUS = 1 (activo)
+-- =====================================================
+-- 9. TOTAL DE LAS NOTAS CON ESTATUS = 1 (activo)
+-- =====================================================
 SELECT 
     c.nota,
     c.fecha,
@@ -115,3 +121,61 @@ INNER JOIN Producto p ON p.id_producto = c.producto_id
 WHERE c.estatus = 1
 GROUP BY c.nota, c.fecha
 ORDER BY c.nota;
+
+-- =====================================================
+-- 10. CONSULTAS ADICIONALES (nota 10)
+-- =====================================================
+
+-- Fechas y estatus actualizados
+SELECT fecha, estatus
+FROM Comanda
+WHERE fecha BETWEEN '2026-04-14' AND '2026-04-20'
+ORDER BY fecha ASC;
+
+SELECT fecha, estatus
+FROM Comanda
+WHERE estatus = 0
+ORDER BY fecha ASC;
+
+-- Consulta nota 10 con mesero
+SELECT c.fecha, c.nota, m.nombre
+FROM Mesero AS m 
+INNER JOIN Comanda AS c ON m.id_mesero = c.mesero_id
+WHERE c.nota = 10
+ORDER BY c.fecha DESC;
+
+-- Consulta nota 10 con productos
+SELECT c.fecha, c.nota, p.nombre, c.cantidad, p.precio, (c.cantidad * p.precio) AS Total
+FROM Producto AS p 
+INNER JOIN Comanda AS c ON p.id_producto = c.producto_id
+WHERE c.nota = 10
+ORDER BY Total DESC;
+
+-- Consulta nota 10 con cliente
+SELECT c.fecha, c.nota, cl.nombre, cl.telefono, cl.correo
+FROM Comanda AS c 
+INNER JOIN Cliente AS cl ON cl.id_cliente = c.cliente_id
+WHERE c.nota = 10
+ORDER BY cl.nombre ASC;
+
+-- Consulta nota 10 con categoría
+SELECT c.fecha, c.nota, p.nombre, cat.nombre AS Categoria
+FROM Comanda AS c 
+INNER JOIN Producto AS p ON p.id_producto = c.producto_id 
+INNER JOIN Categoria AS cat ON cat.id_categoria = p.categoria_id
+WHERE c.nota = 10
+ORDER BY c.fecha ASC;
+
+-- =====================================================
+-- ACTUALIZACIONES (estatus)
+-- =====================================================
+
+-- Actualizar comandas del 14 al 20 de abril a estatus 0
+UPDATE Comanda
+SET estatus = 0
+WHERE fecha BETWEEN '2026-04-14' AND '2026-04-20';
+
+-- Actualizar la nota 10 a estatus 0
+UPDATE Comanda
+SET estatus = 0
+WHERE nota = 10;

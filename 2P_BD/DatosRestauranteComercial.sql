@@ -11,7 +11,7 @@ INSERT INTO Mesa (capacidad, numero, ubicacion) VALUES
 (10, 10, 'Privado');
 
 INSERT INTO Mesero (nombre, num_empleado, telefono, Fecha_inicio, fecha_fin, RFC, NSS, turno, sueldo, correo, fecha_nac, direccion) VALUES
-("Mafer", 2025602274, "5533500568", '2026-04-14', NULL, "MORF060630", "88888888", "Matutino", 300.00, "mafer3006@gmail.com", '2006-06-30', "Av.Ejido"),
+("Quirino", 2025600941, "5564810075", '2026-04-14', NULL, "QUGJ060813", "88888888", "Matutino", 300.00, "jdqg2006@gmail.com", '2006-08-13', "Av.Peñon"),
 ("Juan Pérez", 101, "5512345678", '2023-01-10', NULL, "JUAP900101ABC", "12345678", "Matutino", 300.00, "juan@gmail.com", '1990-01-01', "CDMX"),
 ("María López", 102, "5523456789", '2022-05-15', NULL, "MALO920515DEF", "23456789", "Vespertino", 300.00, "maria@gmail.com", '1992-05-15', "CDMX"),
 ("Carlos García", 103, "5534567890", '2021-08-20', NULL, "CAGA910820GHI", "34567890", "Nocturno", 300.00, "carlos@gmail.com", '1991-08-20', "CDMX"),
